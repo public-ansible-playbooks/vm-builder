@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  gather_facts: no
+  become: true
+  roles:
+    - create-ansible-user
+
+- hosts: localhost
+  gather_facts: no
+  become: true
+  remote_user: ansible
+  roles:
+    - sshd
+    - packer
