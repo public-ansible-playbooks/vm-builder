@@ -7,3 +7,5 @@
 # Install packer
 - src: git+git@github.com:public-ansible-roles/packer.git
 
+# Install azure-cli
+- src: git+git@github.com:public-ansible-roles/azure-cli.git
