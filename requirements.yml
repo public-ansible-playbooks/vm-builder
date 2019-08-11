@@ -4,6 +4,9 @@
 # Configure sshd
 - src: git+git@github.com:public-ansible-roles/sshd.git
 
+# Install common packages for all servers
+- src: git+git@github.com:public-ansible-roles/common.git
+
 # Install ansible
 - src: git+git@github.com:public-ansible-roles/ansible.git
 

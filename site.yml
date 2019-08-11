@@ -11,6 +11,7 @@
   remote_user: ansible
   roles:
     - sshd
+    - common
     - ansible
     - packer
     - azure-cli
