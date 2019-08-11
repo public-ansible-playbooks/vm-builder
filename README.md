@@ -17,7 +17,11 @@ None
 
 How to use
 ----------------
-1.Call ansible roles to setup
-  $ ansible-galaxy install -r requirements.yml -p roles
-2.Execute ansible playbook
-  $ ansible-playbook -i hosts site.yml
+1. Call ansible roles to setup
+```shell
+$ ansible-galaxy install -r requirements.yml -p roles
+``` 
+2. Execute ansible playbook
+```shell
+$ ansible-playbook -i hosts site.yml
+```
