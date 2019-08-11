@@ -6,9 +6,9 @@ A playbook to setup a local virtual machine to create virtual machine image in A
 Requirements
 ------------
 
-Only testd with the environment below
+Only testd with the condition below:
 - OS: CentOS7 and RHEL7
-- Ansible 2.8　should be installled
+- Ansible 2.8 should be installled
 
 Dependencies
 ------------
