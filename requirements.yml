@@ -1,8 +1,11 @@
-# create ansible user
+# Create ansible user
 - src: git+git@github.com:public-ansible-roles/create-ansible-user.git
 
-# configure sshd
+# Configure sshd
 - src: git+git@github.com:public-ansible-roles/sshd.git
+
+# Install ansible
+- src: git+git@github.com:public-ansible-roles/ansible.git
 
 # Install packer
 - src: git+git@github.com:public-ansible-roles/packer.git
